@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0c4a11a8d0e503812 --count 1 --instance-type t2.micro --key-name keypair --security-groups default --region us-east-2
